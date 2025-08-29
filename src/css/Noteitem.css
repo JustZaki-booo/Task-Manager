@@ -1,0 +1,192 @@
+.card {
+    background-color: #474141;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start; /* or remove display:flex entirely */
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  word-break: break-word;
+}
+
+
+
+.cont {
+  display: flex;
+  gap: 1rem; 
+}
+
+.check {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  background-color: #474141;
+  cursor: pointer;
+}
+
+.desc {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+      flex: 2;
+  word-break: break-word;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      flex-wrap: wrap; /* allows wrapping if needed */
+  gap: 0.5rem; /* optional spacing between title and badge */
+
+}
+
+.info {
+    font-size: 1rem;
+
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    background-color: #474141;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start; /* or remove display:flex entirely */
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  word-break: break-word;
+}
+
+.cont {
+  display: flex;
+  gap: 1rem; 
+}
+
+.check {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  background-color: #474141;
+  cursor: pointer;
+}
+
+.desc {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    flex: 2;
+    word-break: break-word;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* allows wrapping if needed */
+    gap: 0.5rem; /* optional spacing between title and badge */
+}
+
+.info {
+    font-size: 1rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+.container-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -------------------- Responsive Queries -------------------- */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;           /* slightly smaller than full width */
+    margin: 10px auto;    /* center it with some margin */
+    padding: 12px 15px;   /* more comfortable padding */
+    border-radius: 8px;   /* keep same as desktop */
+  }
+
+  .title {
+    font-size: 1.3rem;    /* closer to desktop size */
+  }
+
+  .desc {
+    font-size: 1.1rem;    /* keep description readable */
+    margin-left: 8px;
+  }
+
+  .check {
+    width: 18px;          /* slightly bigger checkbox */
+    height: 18px;
+  }
+
+  .info {
+    font-size: 0.95rem;   /* almost desktop size */
+  }
+
+  .icon-container {
+    font-size: 1.2rem;    /* bigger icons */
+    margin: 8px 0;        /* reduce empty space */
+    gap: 10px;            /* spacing between icons */
+  }
+
+  .container,
+  .container-two {
+    flex-direction: row;   /* keep elements side by side */
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;             /* minimal spacing */
+  }
+}

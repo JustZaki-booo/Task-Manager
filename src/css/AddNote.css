@@ -1,0 +1,72 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-btn {
+  background: linear-gradient(135deg, #6534ce, #951a8d);
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 10dvh;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+.main-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.main-btn:hover {
+  background: linear-gradient(135deg, #ff4dff, #c43ad6);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.fullscreen-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.below-navbar {
+  margin-top: 20px; /* adjust based on your navbar height */
+  display: flex;
+  justify-content: center;
+}
+
+.my-form {
+    background-color: rgb(65, 65, 65);
+    color: azure;
+}
+
+.placeholder-white::placeholder {
+  color: white;
+}
+
+.main-btn-two {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 4px #495057;
+}
+
+.opt-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+.dropdown-item {
+    background-color: #343a40;
+    color: white;
+}
